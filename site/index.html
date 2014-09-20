@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nudge</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body ng-app="">
+		<div ng-view id="main">
+			<form novalidate class="css-form">
+				Name:
+				<input type="text" ng-model="user.name" required /><br />
+				E-mail: <input type="email" ng-model="user.email" required /><br />
+				Gender: <input type="radio" ng-model="user.gender" value="male" />male
+				<input type="radio" ng-model="user.gender" value="female" />female<br />
+				<button ng-click="reset()">RESET</button>
+				<button ng-click="update(user)">SAVE</button>
+			</form>
+		</div>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
