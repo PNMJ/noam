@@ -4,6 +4,9 @@ html, body {
 	background-color: #1B1D28;
 	overflow: hidden;
 }
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
 #sidebar{
 	float:left;
 	height:100%;
@@ -12,13 +15,14 @@ html, body {
 
 }
 #sidebar-content{
-	margin-top:20%;
+	margin-top:10%;
 }
 #img-holder{
 	background-color:#14A9A2;
 	height:30%;
 	width:70%;
 	border-radius: 100%;
+	margin-left: 12%;
 }
 #content{
 	margin-left: auto;
@@ -37,7 +41,22 @@ html, body {
 	background-color: #1B1D28;
 	border-radius: 10px;
 	border: solid 3px #14A9A2;
+	font-size: 20px;
 }
 .side-but:hover {
 	background-color: #114845;
+	cursor: cell;
+}
+.center-horizontal{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.side-text{
+	font-size: 25px;
+	color:#F6F6F6;
+	border-bottom: solid 1px #F6F6F6;
+	padding:2%;
+	text-align:center;
+	cursor: cell;
 }
