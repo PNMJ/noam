@@ -1,7 +1,11 @@
 $(document).ready(function() {
 	$("#signupbut").click(function(event) {
-		var gah = $("#sign-up-form").serialize();
-		console.log(gah);
-		alert("Sign Up Succesful!");
+		/*var user = {};
+		user.email = $("#email").val();
+		user.pass = $("#pass").val();
+		user.name = $("#name").val();
+		$.post('http:nudge/users', user, function(data, textStatus, xhr) {
+			console.log('gah')
+		});*/
 	});
 });

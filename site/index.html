@@ -12,14 +12,14 @@
 					Cause You Know You Want It.
 				</div>
 				<div id = "signup">
-					<form id="sign-up-form">
-						<input type="email" name="email" value="" placeholder="Email" class="nicebox">
-						<input type="text" name="name" value="" placeholder="Your Name" class="nicebox"> 
-						<input type="password" name="pass" value="" placeholder="Password" class="nicebox">
-					</form>
-					<button class="btn" id="signupbut">
+					<form id="sign-up-form" method="post" action="http://nudge/users.json">
+						<input type="email" id="email" name="email" value="" placeholder="Email" class="nicebox">
+						<input type="text" id="name" name="name" value="" placeholder="Your Name" class="nicebox"> 
+						<input type="password" id="pass" name="password" value="" placeholder="Password" class="nicebox"> <br>
+						<button class="btn" id="signupbut" type="submit">
 						Sign Up Now.
 					</button>
+					</form>
 					<br /><br />
 					<a href = "pages/signIn.html" style = "font-family: 'Montserrat', sans-serif; color: #ecf0f1; font-size: 14px; text-decoration: none;"> Click here to Sign In </a>
 				</div>

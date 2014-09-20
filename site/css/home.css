@@ -24,9 +24,10 @@ p{
 	border-radius: 100%;
 	margin-left: 12%;
 }
-#content{
+#the-rest{
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -10%;
 	height: 97%;
 	width: 97%;
 	background-color: white;
@@ -59,4 +60,7 @@ p{
 	padding:2%;
 	text-align:center;
 	cursor: cell;
+}
+#the-rest-content{
+	margin-top: 10%;
 }
