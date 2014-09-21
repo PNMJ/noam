@@ -2,23 +2,20 @@ html, body {
 	height:100%;
 	width:100%;
 	background-color: #1B1D28;
-	overflow: hidden;
+	overflow-x: hidden;
 }
-p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
-}
-a, h2, h1, h3{
+
+a, h2, h1, h3, p{
 	text-decoration: none;
 	font-family: 'Source Sans Pro', sans-serif;
 	color:#f6f6f6;
 }
 #sidebar{
+	position: fixed;
 	height:100%;
-	width:25%;
+	width:22%;
 	background-color: #1B1D28;
 	display:inline-block;
-
 }
 #sidebar-content{
 	margin-top:10%;
@@ -32,9 +29,9 @@ a, h2, h1, h3{
 }
 #the-rest{
 	float: right;
-	height: 97%;
 	width: 75%;
 	background-color: #1B1D28;
+	overflow-x: hidden;
 }
 .side-but{
 	padding-top: 1%;
@@ -114,4 +111,25 @@ a, h2, h1, h3{
 #scores{
 	float:right;
 	color:#f6f6f6;
+}
+.input-stuff{
+	height:20%;
+	font-size: 32px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width:80%;
+}
+#info{
+	text-align: center;
+	width:80%;
+}
+.reccomendation-option img{
+	width:100%;
+}
+.reccomendation-option {
+	width:18%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	padding:3px;
+	border: solid 1px rgba(236,240,231,0.3);
+	display:inline-block;
 }
